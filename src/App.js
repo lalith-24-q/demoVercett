@@ -1,23 +1,19 @@
-import { BrowserRouter } from "react-router-dom"
-import { Route } from "react-router-dom"
-import { Routes } from "react-router-dom"
-import home from "./home"
-import Reg from "./Register"
+import { BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import Reg from "./Reg";
+import Home from "./home";
 
-function App()
-{
-  return(
+function App() {
+  return (
     <>
-
-      <h1>I am App</h1>
+      <h1>This is App</h1>
       <BrowserRouter>
-      <Routes>
-        <Route path = "/reg" element = {<Reg/>}></Route>
-        <Route path = "/h" element = {<home/>}></Route>
-      </Routes>
+        <Routes>
+          <Route path="/reg" element={<Reg />} />
+          <Route path="/h" element={<Home />} />
+        </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
-
-export default App
+export default App;
