@@ -1,9 +1,9 @@
-function Home()
+function home()
 {
     return(
         <>
-        <h1>I am App</h1>
+        <h1>I am Lalith</h1>
         </>
     )
 }
-export default Home
+export default home
