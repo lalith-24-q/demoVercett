@@ -13,7 +13,7 @@ function Reg() {
   const submit = async () => {
     try {
       // const res = await axios.post("http://localhost:8000/reg", data);
-      const res = await axios.post("http://https://new-s3t5.onrender.com/register",data)
+      const res = await axios.post("http://new-s3t5.onrender.com/register",data)
       alert(res.data);
     } catch (xyz) {
       alert(xyz.response.data);
